@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "Variable.Get",
+    "params": {
+        "internalName": "Projector (all) Devices",
+		"projectIdentifier": "",
+        "taskCatalogName": "cc"
+    },
+    "id": 8
+}

@@ -1,0 +1,40 @@
+{
+	"jsonrpc": "2.0",
+  	"method": "TaskFlow.UpdateOrCreate",
+    "params": {
+        "items": [
+            {
+                "taskSource": "TASKSOURCE",
+                "taskCatalogName": "",
+                "softwareInternalName": "",
+                "taskCatalogInternalName": "",
+                "taskInternalName": "TASKINTERNALNAME",
+                "fullName": "Device Tasks@Device Manager",
+                "taskParams": [
+                    {
+                        "internalName": "devices",
+                        "value": [
+                            {
+                                "Key": "PROJECTORHOSTNAME",
+                                "Value": "PROJECTOROID"
+                            }
+                        ],
+                        "candidatesSourceVariableInternalName": "Projector (all) Devices",
+                        "candidatesSourceVariableTaskCatalogName": "cc"
+                    },
+                    {
+                        "internalName": "timeOut",
+                        "value": 5000
+                    }
+                ]
+            }
+        ],
+        "reply": [],
+        "displayName": "DISPLAYNAME",
+        "internalName": "INTERNALNAME",
+        "executionMode": "parallel",
+        "projectIdentifier": "PROJECTIDENTIFIER",
+        "fullName": "Taskflows (Control-Center)"
+    },
+    "id": 8
+}
